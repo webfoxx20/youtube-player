@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import BarLoader from "react-spinners/BarLoader";
-// import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+
 import YoutubeApi from "../api/YoutubeApi";
 import MainVideo from "./MainVideo";
 import SearchBar from "./SearchBar";
@@ -53,7 +53,6 @@ const VideoDetail = () => {
     } else {
       return (
         <div className=" flex justify-center items-center text-center mt-40">
-          {/* <ClimbingBoxLoader color={"#eee"} loading={loader} size={15} /> */}
           <BarLoader
             color={"#f9d71c"}
             loading={loader}
