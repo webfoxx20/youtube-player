@@ -11,7 +11,7 @@ const SearchBar = ({ onFormSubmit }) => {
     <form className=" mt-6 lg:text-center" onSubmit={onInputSubmit}>
       <input
         type="text"
-        placeholder="Input city"
+        placeholder="Search"
         className="w-full  lg:w-1/2 shadow-sm rounded-l py-2.5 border border-gray-400 px-4"
         value={term}
         onChange={(e) => {
